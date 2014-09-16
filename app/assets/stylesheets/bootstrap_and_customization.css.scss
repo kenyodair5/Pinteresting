@@ -1,9 +1,29 @@
-$body-bg: 	#2980b9;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-$navbar-inverse-bg: 	#7f8c8d;
-$navbar-default-Link-color: black;
+$body-bg: 	rgb(52, 73, 94); 		
+/*this changes the entire background*/
+ 
+$navbar-height:	45px; 
 
-$jumbotron-bg: #bdc3c7;
+$navbar-default-brand-color: #c0392b;
+$brand-primary: #c0392b;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$brand-primary: #95a5a6;
+$navbar-inverse-bg: 	white;  	
+/*this changes the color of the upper BAR*/
+
+$navbar-inverse-link-color: 	lato;	
+/*this changes the Pinteresting writing in the upper bar*/
+
+$jumbotron-bg: 		white; 
+/*this changes jumbotron BLOCK*/
+
+$brand-danger: 		rgb(41, 128, 185); 
+/*this changes the SIGN UP button, make sure to have the ROOT name coincide everywhere*/ 
 @import 'bootstrap'; 
+.center {
+	text-align:	 center;
+	}
+.navbar-brand {
+		font-weight: 	bold;
+}
