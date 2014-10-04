@@ -19,6 +19,7 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 
@@ -28,6 +29,11 @@ gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
 group :development, :test do
 	gem 'sqlite3'
 end 
+gem 'aws-sdk', '~> 1.16.1'
+gem 'masonry-rails', '~> 0.2.0'
+
+
+
 # Use SCSS for stylesheets
 
 group :production do 
